@@ -41,7 +41,10 @@
 .headerr{
     display: flex;
     justify-content: space-around;
+    padding-right: 80px;
+    padding-left: 400px;
     width: 59%;
+    
 }
 .main-slider{
     display: flex;
