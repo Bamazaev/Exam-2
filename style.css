@@ -155,3 +155,129 @@ padding-left: 15px;
     line-height: normal;
     padding-top: 20px;
 }
+.main-contener .confot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.confot .foto1 img{
+    width: 100%;
+}
+.confot .foto1, .foto2, .foto3{
+    width: 355px;
+    height: 434px;
+    margin: 35px;
+}
+.confot .foto1, .foto3{
+    margin-top: 80px;
+
+}
+.main-contener .confot1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F2F5FF;
+}
+.confot1 .textbot{
+    width: 45%;
+}
+.confot1 .foto4{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.confot1 .foto4 img{
+    width: 100%;
+}
+.confot1 .textbot .textb{
+    color: var(--Font-Color, #333);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.confot1 .textbot .textpb{
+    color: var(--Font-Color, #666);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+}
+.confot1 .textbot .buttonb{
+    display: inline-flex;
+    padding: 24px 57px;
+    align-items: flex-start;
+    gap: 10px;
+    background: var(--Primary-color, #054C73);
+    border-radius: 50px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: none;
+    font-weight: 700;
+}
+.confot .foto11, .foto22, .foto33{
+    width: 355px;
+    height: 434px;
+    margin: 35px;
+}
+.confot .foto123{
+    color: var(--Font-Color, #333);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#hat{
+    width: 100%;
+    height: 15px;
+    border-top: 1px solid rgba(128, 128, 128, 0.288);
+}
+#confot{
+    height: 650px;
+}
+#confot1{
+    height: 650px;
+}
+.main-contener .search{
+    width: 100%;
+    height: 363px;
+    background: #F2F5FF;
+}
+#bot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bot .bot1{
+    width: 486px;
+    height: 70px;
+    background: #FFF;
+    border: 1px solid var(--Primary-color, #054C73);
+}
+#bot .bot2{
+    width: 153px;
+    height: 70px;
+    background: var(--Primary-color, #054C73);
+    border-radius: 3px;
+    border: 1px solid #011C42;
+}
+#bot .bot1 a{
+    width: 175px;
+    height: 20px;
+    text-decoration: none;
+    color: #011C42;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.3;
+    padding-top: 15px;
+
+}
+#bot .bot2 a{
+
+}
